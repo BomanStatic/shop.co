@@ -1,0 +1,7 @@
+.section-hero {
+    display: grid;
+    grid-template-areas: "stack";
+}
+.section-hero > * {
+    grid-area: stack;
+}

@@ -1,0 +1,7 @@
+.stacked {
+    display: grid;
+    grid-template-areas: "stack";
+}
+.stacked > * {
+    grid-area: stack;
+}
